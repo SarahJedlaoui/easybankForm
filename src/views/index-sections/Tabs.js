@@ -47,7 +47,7 @@ export class FormDataModel {
  
 }
 function Tabs() {
-  const [iconPills, setIconPills] = useState("1");
+ 
   const [pills, setPills] = useState("1");
   const [checkedOption, setCheckedOption] = useState(null);
   const [formData, setFormData] = useState(new FormDataModel());
