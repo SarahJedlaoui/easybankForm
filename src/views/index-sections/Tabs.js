@@ -82,6 +82,7 @@ function Tabs() {
   };
 
   const handleNext3 = () => {
+    setPills('1');
     const { nomPrenom, genre, age, telephone, residantExterieur } = formData;
 
     // Check if any required fields are empty
